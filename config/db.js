@@ -1,11 +1,13 @@
+
+       
 const mongoose = require('mongoose')
 
 const connectDB = async() =>{
-
+    
     try {
         
         const conn = await mongoose.connect(
-           `mongodb+srv://khushbuzalavadiya8:khushbuzalavadiya8@cluster0.1behi.mongodb.net/InstaBlog-passport`
+            `mongodb+srv://khuntkhushi506:khuntkhushi506@cluster0.sizjj.mongodb.net/InstaBlog-passport`
         )
         console.log(`MongoDB Connected: ${conn.connection.host}`)
     } catch (error) {
